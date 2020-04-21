@@ -3016,87 +3016,87 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	}
+	
 
 	//////// Fonts for custom HUD ////////
-	{
-		AcidRegular12
+	
+		"AcidMedium12"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
-		AcidRegular16
+		"AcidMedium16"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
-		AcidRegular20
+		"AcidMedium20"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"20"
 				"antialias" "1"
 			}
 		}
-		AcidRegular24
+		"AcidMedium24"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
-		AcidRegular28
+		"AcidMedium28"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"28"
 				"antialias" "1"
 			}
 		}
-		AcidRegular32
+		"AcidMedium32"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
-		AcidRegular36
+		"AcidMedium36"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
-		AcidRegular40
+		"AcidMedium40"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"40"
 				"antialias" "1"
 			}
 		}
-		AcidRegular44
+		"AcidRegular44"
 		{
 			"1"
 			{
-				"name"		"Acid"
+				"name"		"Acid-Medium"
 				"tall"		"44"
 				"antialias" "1"
 			}
