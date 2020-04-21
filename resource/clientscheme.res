@@ -3018,6 +3018,92 @@ Scheme
 		}
 	}
 
+	//////// Fonts for custom HUD ////////
+	{
+		AcidRegular12
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		AcidRegular16
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		AcidRegular20
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		AcidRegular24
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		AcidRegular28
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		AcidRegular32
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		AcidRegular36
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		AcidRegular40
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		AcidRegular44
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+	}
+
+
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5766,6 +5852,35 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
+		"7" 
+		{
+			"font" "resource/fonts/acid.otf"
+			"name" "Acid"
+		}
+		"8" 
+		{
+			"font" "resource/fonts/acid_bold.otf"
+			"name" "Acid-Bold"
+		}
+		"9" 
+		{
+			"font" "resource/fonts/acid_bold_italic.otf"
+			"name" "Acid-BoldItalic"
+		}
+		"10" 
+		{
+			"font" "resource/fonts/acid_italic.otf"
+			"name" "Acid-Italic"
+		}
+		"11" 
+		{
+			"font" "resource/fonts/acid_medium.otf"
+			"name" "Acid-Medium"
+		}
+		"12" 
+		{
+			"font" "resource/fonts/acid_medium_italic.otf"
+			"name" "Acid-MediumItalic"
+		}
 	}
 }
