@@ -5,35 +5,34 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"125"		[$WIN32]
+		"xpos"			"160"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"333"	[$WIN32]
+		"ypos"			"275"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"300"
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.6"
+		"HealthDeathWarning"	"0.67"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
-	"PlayerStatusHealthImage"
+	"HealthBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
-		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"fieldName"		"HealthBG"
+		"xpos"			"78 "	
+		"ypos"			"43"
+		"zpos"			"-1"
+		"wide"			"60"
+		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
+		"fillcolor"		"50 50 50 200"
+	}	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,8 +41,8 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -75,19 +74,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"57"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"38"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"100"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"AcidMedium20"
-		"fgcolor"		"TanDark"
+		"font"			"AcidRegular40"
+		"fgcolor"		"245 245 245 245"
 	}
 	"PlayerStatusMaxHealthValue"
 	{
@@ -96,7 +94,7 @@
 		"xpos"			"76"
 		"xpos_minmode"	"61"
 		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"40"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
@@ -105,7 +103,7 @@
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"center"	
 		"font"			"DefaultSmall"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"255 255 255 255"
 	}
 	"PlayerStatusBleedImage"
 	{
@@ -207,9 +205,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"xpos"			"85"	
+		"ypos"			"-3"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -224,8 +221,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"-3"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -241,7 +237,7 @@
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"85"
 		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"-3"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"
@@ -258,7 +254,7 @@
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"85"
 		"xpos_minmode"	"70"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"31"
 		"tall"			"31"

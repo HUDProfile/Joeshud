@@ -3020,6 +3020,89 @@ Scheme
 
 	//////// Fonts for custom HUD ////////
 	
+		"AcidRegular12"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular16"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular20"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular24"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular28"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular32"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular36"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular40"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		"AcidRegular44"
+		{
+			"1"
+			{
+				"name"		"Acid"
+				"tall"		"44"
+				"antialias" "1"
+			}
+		}
+	}
+	//^Acid regular fonts^//
 		"AcidMedium12"
 		{
 			"1"
@@ -3056,30 +3139,39 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"AcidMedium28"
+		"AcidMedium26"
 		{
 			"1"
 			{
 				"name"		"Acid-Medium"
-				"tall"		"28"
+				"tall"		"26"
 				"antialias" "1"
 			}
 		}
-		"AcidMedium32"
+		"AcidMedium30"
 		{
 			"1"
 			{
 				"name"		"Acid-Medium"
-				"tall"		"32"
+				"tall"		"30"
 				"antialias" "1"
 			}
 		}
-		"AcidMedium36"
+		"AcidMedium34"
 		{
 			"1"
 			{
 				"name"		"Acid-Medium"
-				"tall"		"36"
+				"tall"		"34"
+				"antialias" "1"
+			}
+		}
+		"AcidMedium38"
+		{
+			"1"
+			{
+				"name"		"Acid-Medium"
+				"tall"		"38"
 				"antialias" "1"
 			}
 		}
@@ -3092,7 +3184,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"AcidRegular44"
+		"AcidMedium44"
 		{
 			"1"
 			{
@@ -3101,7 +3193,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	}
+		"AcidMedium48"
+		{
+			"1"
+			{
+				"name"		"Acid-Medium"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+
+
+
 
 
 	//
